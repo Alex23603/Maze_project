@@ -1,0 +1,10 @@
+your_project/
+├── src/                # Source code files (.c)
+│   ├── main.c          # Main program entry
+│   └── game.c          # Game logic implementation
+├── inc/                # Header files (.h)
+│   └── game.h          # Header for game functions
+├── Makefile            # Makefile for compilation
+├── README.md           # Project README
+└── assets/             # Additional assets (textures, maps, etc.)
+    └── maze_map.txt    # Example map file
