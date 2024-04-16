@@ -1,4 +1,4 @@
-#include "game.h"
+#include <game.h>
 #include <stdio.h>
 #include <SDL2/SDL.h>
 
