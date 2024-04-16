@@ -147,7 +147,19 @@ void handle_input(int input)
             break;
     }
 }
-
+/**
+ * cleanup_game - Cleanup resources used by the game
+ */
+void cleanup_game(void)
+{
+    /* Cleanup resources */
+    SDL_DestroyTexture(wallTexture);
+    SDL_DestroyTexture(floorTexture);
+    SDL_DestroyRenderer(renderer);
+    SDL_DestroyWindow(window);
+    SDL_Quit();
+    printf("Cleaning up game resources...\n");
+}
 /**
  * cleanup_game - Cleanup resources used by the game
  */
